@@ -1,0 +1,155 @@
+  * {
+            font-family: Montserrat, sans-serif;
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            /* text-decoration: none; */
+            color: black;
+        }
+
+         #parent {
+            height: 6000px;
+            /* border: 1px solid red; */
+         }  
+
+        /* #head {
+            border: 1px solid blue;
+        } */
+
+        #h1 {
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            height: 65px;
+            width: 100%;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 999;
+        }
+
+        #h1>img {
+            margin-left: 10px;
+            height: 40px;
+        }
+
+        #h1>a {
+            margin-right: 10px;
+            margin-left: 10px
+        }
+
+        #logo {
+            /* border: 1px solid aqua; */
+            width: 16%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #close {
+            display: flex;
+            justify-content: end;
+            /* border: 1px solid green; */
+            width: 12%;
+            margin-right: 10px;
+            align-items: center;
+        }
+
+        #h2 {
+            margin-top: 63px;
+            /* border: 1px solid black; */
+            align-items: center;
+            text-decoration: none;
+            height: 70px;
+            justify-content: space-between;
+            display: flex;
+        }
+
+        #h2l>a>img {
+            height: 30px;
+            margin-left: 100px;
+        }
+
+        #h2social {
+            /* border: 1px solid orange; */
+            display: flex;
+            text-decoration: none;
+            justify-content: space-between;
+            align-items: center;
+            width: 11%;
+            margin-right: 120px;
+            height: 65px
+        }
+
+        #h2social>a>i {
+            height: 60px;
+            margin: auto;
+        }
+
+        #h2social>a {
+            margin-top: 50px;
+        }
+
+        #body {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            background-size: cover;
+            height: 850px;
+            background-position: 50% 50%;
+            background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg444.jpg);
+        }
+
+        #box {
+            position: absolute;
+            left: 675px;
+            background-color: #b4bd9b;
+            /* border: 1px solid blue; */
+            width: 42.5%;
+            height: 480px;
+        }
+
+        #textbox {
+            /* border: 1px solid red; */
+            background-color: #ffffff;
+            box-shadow: 10px 10px 10px 10px rgb(162,170,139);
+            height: 366px;
+            width: 650px;
+            position: absolute;
+            top: 57px;
+            right: 57px;
+        }
+
+        #textbox-child {
+            margin-top: 40px;
+            margin-left: 40px;
+            font-weight: lighter;
+            color: #d41b1b;
+            font-size: xx-large;
+        }
+
+        #textbox > div > h1 {
+            font-weight: lighter;
+            color: #382f2f;
+        }
+
+        #textbox > div > h5 {
+            margin-bottom: 15px;
+            margin-top: 60px;
+            font-weight: lighter;
+            color: #382f2f;
+        }
+
+        #textbox > div > p {
+            font-size: large;
+            margin-top: 15px;
+            margin-bottom: 60px;
+            font-weight: lighter;
+            color: #382f2f;
+        }
+        
+        #textbox > div > p > a {
+            font-size: large;
+            font-weight: lighter;
+            color: #382f2f;
+        }

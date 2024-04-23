@@ -3,18 +3,17 @@
       margin: 0%;
       padding: 0%;
       box-sizing: border-box;
-      /* text-decoration: none; */
       color: black;
   }
 
   #parent {
-      height: 6000px;
-      /* border: 1px solid red; */
+      /* height: 6000px; */
+      border: none;
   }
 
-  /* #head {
-            border: 1px solid blue;
-        } */
+  #head {
+      border: none;
+  }
 
   #h1 {
       position: fixed;
@@ -183,7 +182,6 @@
       font-size: xx-small;
   }
 
-
   #page-1 {
       /* border: 1px solid red; */
       width: 84.5%;
@@ -194,16 +192,13 @@
       /* height: 600px; */
   }
 
-
   #pchild-1 {
       border: none;
   }
 
-
   #pchild-1>div>img {
       width: 545px;
   }
-
 
   #pchild-2 {
       border: none;
@@ -420,7 +415,6 @@
       background-image: url(https://images01.nicepagecdn.com/d3/0e/d30ef3549739acd770d4fe2643ec3ded.jpeg);
   }
 
-
   #imgleft {
       width: 49%;
       /* border: 1px solid red; */
@@ -445,67 +439,213 @@
       background-image: url(https://images01.nicepagecdn.com/af/d3/afd377e224603dfabddc6e7d688b1eb8.jpeg);
   }
 
-
-  
   #heading-2 {
 
-    display: flex;
-    justify-content: space-between;
-    /* border: 1px solid red; */
-    width: 84.5%;
-    margin: auto;
-    margin-top: 140px;
-}
+      display: flex;
+      justify-content: space-between;
+      /* border: 1px solid red; */
+      width: 84.5%;
+      margin: auto;
+      margin-top: 140px;
+  }
 
-.head-no {
-    font-family: Montserrat, sans-serif !important;
-    color: white;
-    background-color: rgb(106, 124, 62);
-    font-size: 70px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding-left: 4%;
-    font-weight: bolder;
-    width: 180px;
-    border: 1px solid green;
-    height: 180px;
-    /* margin-left: 100px; */
-}
+  .head-no {
+      font-family: Montserrat, sans-serif !important;
+      color: white;
+      background-color: rgb(106, 124, 62);
+      font-size: 70px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding-left: 4%;
+      font-weight: bolder;
+      width: 180px;
+      border: 1px solid green;
+      height: 180px;
+      /* margin-left: 100px; */
+  }
 
-.head-text {
-    line-height: 50px;
-    
-    margin-top: 0px;
-    font-family: Montserrat, sans-serif;
-    word-spacing: 2px;
-    font-size: 22px;
-}
+  .head-text {
+      line-height: 50px;
 
-.head-text>h1 {
-    color: rgb(32, 31, 31);
-}
+      margin-top: 0px;
+      font-family: Montserrat, sans-serif;
+      word-spacing: 2px;
+      font-size: 22px;
+  }
 
-.img-i {
-    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-marina-podrez-12744083.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 32.5%;
-    height: 362px;
-}
+  .head-text>h1 {
+      color: rgb(32, 31, 31);
+  }
 
-.img-ii {
-    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/medium-shot-woman-holding-vase6.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 32.5%;
-    height: 362px;
-}
+  .img-i {
+      background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-marina-podrez-12744083.jpg);
+      background-size: cover;
+      background-position: 50% 50%;
+      width: 32.5%;
+      height: 362px;
+  }
 
-.img-iii {
-    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/64564.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 32.5%;
-    height: 362px;
-}
+  .img-ii {
+      background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/medium-shot-woman-holding-vase6.jpg);
+      background-size: cover;
+      background-position: 50% 50%;
+      width: 32.5%;
+      height: 362px;
+  }
+
+  .img-iii {
+      background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/64564.jpg);
+      background-size: cover;
+      background-position: 50% 50%;
+      width: 32.5%;
+      height: 362px;
+  }
+
+  #formparent {
+      border: 1px solid transparent;
+      margin-top: 140px;
+      width: 100%;
+      height: 725px
+  }
+
+
+  .div1 {
+      /* border: 1px solid green; */
+      height: 235px;
+      background-color: #cad1b6;
+      margin-top: 20%;
+  }
+
+  .div2 {
+      height: 750px;
+      /* border: 1px solid black; */
+      width: 70%;
+      margin: auto;
+      position: relative;
+      bottom: 250px;
+      display: flex;
+      justify-content: right;
+  }
+
+  .div3 {
+      background-position: 50% 50%;
+      width: 500px;
+      background-size: cover;
+      height: 700px;
+      background-repeat: no-repeat;
+      background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/painting-hanging-shelf-full-cacti-succulents_53876-110301.jpg);
+  }
+
+  .div4 {
+      background-color: white;
+      box-shadow: 5px 5px 5px 5px rgb(221, 215, 215);
+      position: relative;
+      right: 85%;
+      top: 65px;
+      height: 500px;
+      /* border: 1px solid red; */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding-top: 4px;
+  }
+
+  .div4>input {
+
+      border: none;
+      width: 85%;
+      height: 40px;
+      font-size: medium;
+      padding-left: 20px;
+      padding-bottom: 8px;
+      /* margin-top: 10px; */
+      border-bottom: 2.5px solid black;
+  }
+
+  .div4>form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #textarea {
+      border: none;
+      font-size: medium;
+      width: 85%;
+      padding-left: 20px;
+      padding-bottom: 8px;
+      border-bottom: 2.5px solid black;
+  }
+
+  .div4>h1 {
+      font-size: 45px;
+  }
+
+  .div4>form>button {
+      background-color: #6b7e3c;
+      color: white;
+      margin-top: 20px;
+      height: 45px;
+      border: none;
+      font-size: larger;
+      width: 85%;
+      margin-bottom: 50px;
+  }
+
+  .div4>form>button:hover {
+      color: #ffffff;
+      background-color: black;
+  }
+
+  .freepik {
+      margin-top: 80px;
+      text-align: center;
+      font-size: larger;
+      /* border: 1px solid blue; */
+  }
+
+  #footer {
+      background-color: rgb(51, 51, 51);
+      /* border: 1px solid black; */
+      margin-top: 80px;
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  #foot {
+      margin-top: 100px;
+  }
+
+  #footer>div {
+      margin-top: 50px;
+      color: white;
+      line-height: 30px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #footer>div>div>a>i {
+      margin-top: 40px;
+      margin-left: 10px;
+  }
+
+  #footer>div>a {
+      color: white;
+      text-decoration: none;
+  }
+
+  #footer2 {
+      height: 150px;
+      text-align: center;
+      padding-top: 50px;
+      font-size: small;
+      color: white;
+      background-color: rgb(51, 51, 51);
+  }
+
+  #footer2>a {
+      color: white;
+      font-size: small;
+  }

@@ -283,6 +283,7 @@
   }
 
   #ptchild-2>button {
+      background-color: white;
       font-size: larger;
       font-weight: bold;
       word-spacing: 3px;
@@ -308,7 +309,6 @@
 
   #head-no {
       font-family: Montserrat, sans-serif !important;
-      ;
       color: white;
       background-color: rgb(106, 124, 62);
       font-size: 70px;
@@ -335,7 +335,7 @@
       color: rgb(32, 31, 31);
   }
 
-  #imgparent {
+  .imgparent {
 
       justify-content: space-between;
       width: 84.5%;
@@ -369,7 +369,7 @@
       height: 362px;
   }
 
-  #heading2 {
+  #heading-ii {
       text-align: center;
       /* border: 1px solid yellow; */
       margin: auto;
@@ -378,11 +378,11 @@
       width: 84.5%;
   }
 
-  #heading2>h1 {
+  #heading-ii>h1 {
       font-size: 45px;
   }
 
-  #heading2>p {
+  #heading-ii>p {
       font-size: 18px;
       word-spacing: 3px;
       color: #382f2f;
@@ -406,7 +406,7 @@
       height: 220px;
       width: 45%;
       margin-left: 303px;
-      margin-bottom: 30px;
+      margin-bottom: 27px;
       background-size: cover;
       background-position: 50% 50%;
       background-image: url(https://images01.nicepagecdn.com/67/6b/676b13d38454f01eafb6d8d873761e17.jpeg);
@@ -429,7 +429,7 @@
   .coll3 {
       height: 475px;
       width: 99.6%;
-      margin-bottom: 30px;
+      margin-bottom: 27px;
       background-size: cover;
       background-position: 50% 50%;
       background-image: url(https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/62b5fd1f937050ef8bd0a63d/51e9d44b4856b108f5d08460962934761237d6ed5a4c704c72297bd2914bcd5a_1280.jpg);
@@ -444,3 +444,68 @@
       background-position: 50% 50%;
       background-image: url(https://images01.nicepagecdn.com/af/d3/afd377e224603dfabddc6e7d688b1eb8.jpeg);
   }
+
+
+  
+  #heading-2 {
+
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 84.5%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.head-no {
+    font-family: Montserrat, sans-serif !important;
+    color: white;
+    background-color: rgb(106, 124, 62);
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 4%;
+    font-weight: bolder;
+    width: 180px;
+    border: 1px solid green;
+    height: 180px;
+    /* margin-left: 100px; */
+}
+
+.head-text {
+    line-height: 50px;
+    
+    margin-top: 0px;
+    font-family: Montserrat, sans-serif;
+    word-spacing: 2px;
+    font-size: 22px;
+}
+
+.head-text>h1 {
+    color: rgb(32, 31, 31);
+}
+
+.img-i {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-marina-podrez-12744083.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 32.5%;
+    height: 362px;
+}
+
+.img-ii {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/medium-shot-woman-holding-vase6.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 32.5%;
+    height: 362px;
+}
+
+.img-iii {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/64564.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 32.5%;
+    height: 362px;
+}

@@ -1,0 +1,663 @@
+* {
+    font-family: Montserrat, sans-serif;
+    margin-top: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: black;
+}
+
+#head {
+    border: none;
+}
+
+#h1 {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 65px;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+}
+
+#h1>img {
+    margin-left: 10px;
+    height: 40px;
+}
+
+#h1>a {
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+#logo {
+    /* border: 1px solid aqua; */
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#close {
+    display: flex;
+    justify-content: end;
+    /* border: 1px solid green; */
+    width: 12%;
+    margin-right: 10px;
+    align-items: center;
+}
+
+#parentdiv {
+    margin: auto;
+    /* border: 1px solid black; */
+    box-shadow: 7px 7px 7px 7px grey;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    width: 33%;
+    flex-direction: column;
+    /* height: 6000px; */
+}
+
+#navbar {
+    height: 170px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navbar :nth-child(1)>a>img {
+    height: 34px;
+    margin-top: 20px;
+}
+
+.social {
+    /* border: 1px solid black; */
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.social>a>i {
+    height: 20px;
+}
+
+.bars {
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: black;
+}
+
+#body {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    height: 580px;
+    background-position: 50% 50%;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg444.jpg);
+}
+
+#box {
+    position: absolute;
+    left: 535px;
+    background-color: #b4bd9b;
+    /* border: 1px solid blue; */
+    width: 23%;
+    height: 440px;
+}
+
+#textbox {
+    /* border: 1px solid red; */
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px 10px rgb(162, 170, 139);
+    height: 340px;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 35px;
+}
+
+#textbox-child {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: lighter;
+    font-size: large;
+}
+
+#textbox>div>h1 {
+    margin-bottom: 0px;
+    font-weight: lighter;
+    color: #443d3d;
+}
+
+#textbox>div>h5 {
+    font-size: x-large;
+    margin-bottom: 15px;
+    margin-top: 60px;
+    font-weight: lighter;
+    color: #382f2f;
+}
+
+#textbox>div>p {
+    font-size: large;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    font-weight: lighter;
+    color: #382f2f;
+}
+
+#textbox>div>p>a {
+    font-size: large;
+    font-weight: lighter;
+    color: #382f2f;
+}
+
+#fixed {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    flex-direction: column;
+    right: 33.9%;
+    bottom: 14px;
+    width: 70px;
+    height: 60px;
+    border-radius: 2px;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+#fixed>img {
+    height: 43px;
+    width: 43px;
+    /* padding-left: 15px; */
+    padding-top: 5px;
+}
+
+#fixed>p {
+    padding-top: 3px;
+    font-size: xx-small;
+}
+
+#page-1 {
+    /* border: 1px solid red; */
+    width: 84.5%;
+    /* margin: auto; */
+    margin-top: 61px;
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* height: 600px; */
+}
+
+#pagechild-1 {
+    width: 352px;
+    /* border: 1px solid blue; */
+    margin: auto;
+}
+
+#pagechild-1>div>img {
+    width: 350px;
+    /* margin: auto; */
+}
+
+#text-p-1>div>h1 {
+    word-spacing: 2px;
+    font-size: 30px;
+    margin-top: 10px;
+    line-height: 33px;
+}
+
+#text-p-1>div>p {
+    word-spacing: 1px;
+    font-size: larger;
+    color: rgb(112, 112, 112);
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#text-p-1>div>h5 {
+    color: rgb(102, 101, 101);
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+
+#text-p-1>div>h5>a {
+    color: rgb(78, 77, 77);
+}
+
+#pagechild-2 {
+    width: 352px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+#pagechild2-background {
+    margin-left: 70px;
+}
+
+#pagechild2-background>div>img {
+    /* border: 1px solid gold; */
+    width: 300px;
+    position: relative;
+    right: 70px;
+    top: 45px;
+    border-radius: 50%;
+}
+
+#pagechild2-background>div {
+    width: 270px;
+    height: 260px;
+    background-image: url(https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/f82f15087c19565f99555fe5/texture-min.png);
+}
+
+#text-p-2>p {
+    margin-top: 115px;
+    word-spacing: 1px;
+    font-size: larger;
+    color: gray;
+    line-height: 30px;
+}
+
+#text-p-2>button {
+    background-color: white;
+    font-size: larger;
+    font-weight: bold;
+    word-spacing: 3px;
+    margin-top: 15px;
+    height: 55px;
+    width: 200px;
+    border: 2px solid rgb(145, 158, 109);
+}
+
+#text-p-2>button:hover {
+    color: white;
+    background-color: rgb(145, 158, 109);
+}
+
+#heading-1 {
+    margin-top: 0%;
+    /* display: flex; */
+    /* border: 1px solid red; */
+    width: 84.5%;
+    /* margin: auto; */
+    margin-top: 115px;
+}
+
+#head-no {
+    font-family: Montserrat, sans-serif !important;
+    color: white;
+    background-color: rgb(106, 124, 62);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    width: 85px;
+    /* border: 1px solid green; */
+    height: 85px;
+    margin-left: 14px;
+}
+
+#head-text {
+    /* line-height: 50px; */
+    margin-top: 20px;
+    font-family: Montserrat, sans-serif;
+    word-spacing: 2px;
+    font-size: 14px;
+    margin-left: 14px;
+}
+
+#head-text>h1 {
+    color: rgb(32, 31, 31);
+}
+
+.imgparent {
+    width: 84.5%;
+    /* margin: auto; */
+    margin-top: 30px;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.img1 {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/5646.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 318px;
+}
+
+.img2 {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-cup-of-couple-6633450.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 318px;
+}
+
+.img3 {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/56456.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 92%;
+    margin: auto;
+    height: 318px;
+}
+
+#heading-ii {
+    text-align: center;
+    /* border: 1px solid yellow; */
+    /* margin: auto; */
+    margin-top: 0px;
+    line-height: 30px;
+    width: 84.5%;
+}
+
+#heading-ii>h1 {
+    margin-top: 120px;
+    font-size: 28px;
+}
+
+#heading-ii>p {
+    font-size: 18px;
+    word-spacing: 2px;
+    color: #382f2f;
+}
+
+#imgcollage {
+    width: 84.5%;
+    /* display: flex; */
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    /* margin: auto; */
+    margin-top: 40px;
+}
+
+#imgright {
+    width: 92%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.coll1 {
+    height: 265px;
+    width: 100%;
+    /* margin-left: 303px; */
+    margin-bottom: 27px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://images01.nicepagecdn.com/67/6b/676b13d38454f01eafb6d8d873761e17.jpeg);
+}
+
+.coll2 {
+    height: 265px;
+    width: 100%;
+    margin-bottom: 27px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://images01.nicepagecdn.com/d3/0e/d30ef3549739acd770d4fe2643ec3ded.jpeg);
+}
+
+#imgleft {
+    width: 92%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+.coll3 {
+    height: 265px;
+    width: 100%;
+    margin-bottom: 27px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://images03.nicepagecdn.com/c461c07a441a5d220e8feb1a/62b5fd1f937050ef8bd0a63d/51e9d44b4856b108f5d08460962934761237d6ed5a4c704c72297bd2914bcd5a_1280.jpg);
+}
+
+.coll4 {
+    height: 265px;
+    width: 100%;
+    display: flex;
+    margin-right: 303px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(https://images01.nicepagecdn.com/af/d3/afd377e224603dfabddc6e7d688b1eb8.jpeg);
+}
+
+#heading-2 {
+    margin-top: 0%;
+    /* display: flex; */
+    /* border: 1px solid red; */
+    width: 84.5%;
+    /* margin: auto; */
+    margin-top: 100px;
+}
+
+.head-no {
+    font-family: Montserrat, sans-serif !important;
+    color: white;
+    background-color: rgb(106, 124, 62);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    width: 85px;
+    /* border: 1px solid green; */
+    height: 85px;
+    margin-left: 1px;
+}
+
+.head-text {
+    /* line-height: 50px; */
+    margin-top: 20px;
+    font-family: Montserrat, sans-serif;
+    word-spacing: 2px;
+    font-size: 14px;
+    margin-left: 14px;
+}
+
+.head-text>h1 {
+    color: rgb(32, 31, 31);
+}
+
+.img-i {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/pexels-marina-podrez-12744083.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 318px;
+}
+
+.img-ii {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/medium-shot-woman-holding-vase6.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 318px;
+}
+
+.img-iii {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/64564.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 92%;
+    margin: auto;
+    height: 318px;
+}
+
+
+#formparent {
+    /* border: 1px solid olive; */
+    margin-top: 160px;
+    width: 100%;
+    height: 650px
+}
+
+.div1 {
+    /* border: 1px solid green; */
+    height: 235px;
+    background-color: #cad1b6;
+    margin-top: 247.5px;
+}
+
+.div2 {
+    /* height: 750px; */
+    /* border: 1px solid black; */
+    width: 78%;
+    margin: auto;
+    position: relative;
+    bottom: 320px;
+    display: flex;
+    justify-content: right;
+}
+
+.div3 {
+    background-position: 50% 50%;
+    width: 500px;
+    background-size: cover;
+    height: 435px;
+    background-repeat: no-repeat;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/16689/images/painting-hanging-shelf-full-cacti-succulents_53876-110301.jpg);
+}
+
+.div4 {
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgb(221, 215, 215);
+    position: relative;
+    /* right: 85%; */
+    top: 310px;
+    height: 448px;
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 4px;
+}
+
+.div4>input {
+    border: none;
+    width: 85%;
+    height: 40px;
+    font-size: medium;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    /* margin-top: 10px; */
+    border-bottom: 2.5px solid black;
+}
+
+.div4>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textarea {
+    border: none;
+    font-size: medium;
+    width: 85%;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2.5px solid black;
+}
+
+.div4>h1 {
+    font-size: 30px;
+}
+
+.div4>form>button {
+    background-color: #6b7e3c;
+    color: white;
+    margin-top: 20px;
+    height: 45px;
+    border: none;
+    font-size: larger;
+    width: 85%;
+    margin-bottom: 50px;
+}
+
+.div4>form>button:hover {
+    color: #ffffff;
+    background-color: black;
+}
+
+.freepik {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 18px;
+    /* border: 1px solid blue; */
+}
+
+#footer {
+    background-color: rgb(51, 51, 51);
+    /* border: 1px solid black; */
+    width: 100%;
+    padding-left: 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#foot {
+    margin-top: 100px;
+}
+
+#footer>div {
+    margin-top: 50px;
+    color: white;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer>div>div>a>i {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#footer>div>a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer2 {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: small;
+    color: white;
+    background-color: rgb(51, 51, 51);
+}
+
+#footer2>a {
+    color: white;
+    font-size: small;
+}
